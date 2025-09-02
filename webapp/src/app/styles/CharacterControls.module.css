@@ -1,0 +1,45 @@
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    background-color: #fff;
+    color: black;
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+.controlGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.controlGroup label {
+    font-weight: bold;
+    color: #007acc;
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+}
+
+
+
+.controlGroup input,
+.controlGroup select,
+.controlGroup button {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.controlGroup button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.controlGroup button:hover {
+    background-color: #005fa3;
+}
